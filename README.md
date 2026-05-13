@@ -12,6 +12,8 @@ The analytical pipeline is divided into the following R scripts:
 * `[03_homes_and_attractivity_pois.R]`: identifies home and work locations of each individual, downloads amenities that represent Attractivity.
 * `[04_transit.R]`: loads raw transit data, GTFS files for buses, and railways from OpenStreetMap.
 * `[05_ala_scores.R]`: calculates Livability, Attractivity, and Accessibility Scores. Normalizes the scores, applies  Gaussian Kernel smoothing, and plots the spatial distributions of each score.
-* 
+* `[06_entropy]`: identifies different temporal categories, calculates entropy (social mixing index) in each grid cell for each temporal category.
+* `[07_air_pollution]`: loads Air Quality Monitoring Station data, calculates Environmental Score, performs Inverse Distance Weighting.
+* `[08_regression]`: calculates Moran's I, Lagrange Multiplier diagnostics, Spatial Error Models, and Spatial Lag Model.
 
 
